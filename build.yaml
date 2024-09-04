@@ -7,13 +7,5 @@
 #
 # board: [ "nice_nano_v2" ]
 # shield: [ "piosic_left", "piosic_right" ]
-# include:
-#   - board: bdn9_rev2
-#   - board: nice_nano_v2
-#     shield: reviung41
-#   - board: nice_nano_v2
-#     shield: piosic_left
-#     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
-#     artifact-name: piosic_left_with_logging
 #
 ---
