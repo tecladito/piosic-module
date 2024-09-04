@@ -1,0 +1,13 @@
+file_format: "1"
+id: piosic
+name: piosic
+type: shield
+url: https://github.com/tecladito/piosic/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - piosic_left
+  - piosic_right
